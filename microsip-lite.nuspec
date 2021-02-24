@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>microsip-lite</id>
-    <version>3.19.22</version>
+    <version>3.20.5</version>
     <title>MicroSIP-Lite</title>
     <authors>MDev Group</authors>
 	<owners>rattkin</owners>
@@ -18,21 +18,21 @@
     <docsUrl>https://www.microsip.org/faq</docsUrl>
     <tags>microsip sip telephony softphone</tags>
     <summary>Open source portable SIP softphone for Windows based on PJSIP stack</summary>
-    <description>It allowing to do high quality VoIP calls (person-to-person or on regular telephones) via open SIP protocol. From cloud of SIP providers you can choose best for you, register account and use it with MicroSIP. You'll get free person-to-person calls and cheap international calls.
+   <description><![CDATA[It allowing to do high quality VoIP calls (person-to-person or on regular telephones) via open SIP protocol. From cloud of SIP providers you can choose best for you, register account and use it with MicroSIP. You'll get free person-to-person calls and cheap international calls.
 
-	Main in MicroSIP-Lite:
+## Main in MicroSIP:
 
-	even smaller footprint than regular version (>2.5MB) and RAM usage (>5MB) - written in C and C++ with minimal possible system resources usage
-	lite version has no video support. Better for privacy and system resources
-	usability - user friendly in daily usage
-	functionality - voice; SIMPLE messaging (RFC 3428) and presence (RFC 3903, 6665); DTMF In-band, RCF2833, SIP-INFO.
-	compatibility - conform to SIP standards
-	voice quality - supports best voice codecs: Opus@24kHz, G.711 A-law (PCMA), G.711 u-law (PCMU), G.722@16kHz, G.723@8kHz, G.729@8kHz, iLBC@8kHz, GSM@8kHz, AMR@8kHz, AMR-WB@16kHz, Speex@8,16,32kHz, SILK@8,12,16,24kHz and Linear PCM@44kHz, including stereo.
-	WebRTC echo cancellation algorithm and voice activity detection
-	privacy - configurable encryption TLS / SRTP for control and media
-	portability - has no additional dependencies and stores setting in ini file
-	multilanguage and RTL support, localization for brazilian, bulgarian, chinese, dutch, estonian, finnish, french, german, hebrew, hungarian, italian, korean, norwegian, polish, russian (микросип), spanish, swedish, ukrainian, ...
-	Enjoy!
+* **small footprint** (>2.5MB) and RAM usage (>5MB) - written in C and C++ with minimal possible system resources usage
+* **usability** - user friendly in daily usage
+* **functionality** - voice; video H.264 and H.263+, VP8; SIMPLE messaging (RFC 3428) and presence (RFC 3903, 6665); DTMF In-band, RCF2833, SIP-INFO.
+* **compatibility** - conform to SIP standards
+* **voice quality** - supports best voice codecs: Opus, G.711 A-law and μ-law, G.722, G.721.1, G.723, G.729, GSM, AMR, AMR-WB, iLBC, Speex, SILK and Linear PCM mono/stereo.
+* **WebRTC echo cancellation** algorithm and voice activity detection
+* **privacy** - configurable encryption TLS / SRTP for control and media
+* **portability** - has no additional dependencies and stores setting in ini file
+* **multilanguage and RTL support**, localization for brazilian, bulgarian, chinese, dutch, estonian, finnish, french, german, hebrew, hungarian, italian, korean, norwegian, polish, russian (микросип), spanish, swedish, ukrainian, ...
+* can be used by people with visual impairments using **screen reader** software such as NVDA
+* **Enjoy!**]]>
 	</description>
   </metadata>
   <files>
