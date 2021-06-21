@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>microsip-lite</id>
-    <version>3.20.5</version>
+    <version>3.20.6</version>
     <title>MicroSIP-Lite</title>
     <authors>MDev Group</authors>
 	<owners>rattkin</owners>
